@@ -13,7 +13,8 @@ Write your W1 activity Devlog here.
 
 ### W3
 #### table #3
-##### Activity 1
+##### Part 1
+###### Activity 1
 
 
 1. 
@@ -38,8 +39,10 @@ Output: a statement indicating whether the player fit the beat accurately, Retur
 A class is like a blueprint for a house. The blueprint describes what a house can have and do, but it is not itself a house in the scene. A Component is like one actual house built from that blueprint. Member variables are the house's traits, such as its color or number of floors. Methods are the actions it can perform, such as changing the paint of  a wall, or turning on a light. Multiple houses can be built from the same blueprint, just as multiple Components can be created from one class.
 
 
-##### Activity 3
+##### Part 3
 
+
+I think the balls get extremely bright because their RGB color values may increase with each bounce. After many collisions, the color values can become very high, making the balls appear brighter or almost white, especially in the Scene view.
 
 
 ## Open-Source Assets
