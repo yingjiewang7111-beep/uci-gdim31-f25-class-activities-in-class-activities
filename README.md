@@ -4,9 +4,43 @@
 Write your W1 activity Devlog here.
 
 ### W2
+
+
 1. r, g, b variables represent the RGB color values. Since each color channel is a continuum spectrum, they are represented as "float"
 2. _bounces variables represent the number that the ball bounces. It is a integer and increased by 1 per time.
 3. It tolds me a float variable cannot do calculations with a integer.
+
+
+### W3
+#### table #3
+##### Activity 1
+
+
+1. 
+Method: "GetResponse"
+Input: parameters: "int current_friendship_level" (float is also resaonable somehow), "bool know_secret". Because friendship level is a numeric value, and whether the character know the secret is a true or false statement.
+Output: a character's text response, Return type should be string. 
+
+2. 
+Method: "SetLightDimness"
+Input: paraneter: "float sanity_level", (0> sanity_level > 100)
+No output, return type is "void".
+
+3. 
+Method: "DidPlayerHitBeat"
+Input: Parameter: "float key_pass_time"
+Output: a statement indicating whether the player fit the beat accurately, Return type should be bool. 
+
+
+##### Activity 2
+
+
+A class is like a blueprint for a house. The blueprint describes what a house can have and do, but it is not itself a house in the scene. A Component is like one actual house built from that blueprint. Member variables are the house's traits, such as its color or number of floors. Methods are the actions it can perform, such as changing the paint of  a wall, or turning on a light. Multiple houses can be built from the same blueprint, just as multiple Components can be created from one class.
+
+
+##### Activity 3
+
+
 
 ## Open-Source Assets
 ### W1
