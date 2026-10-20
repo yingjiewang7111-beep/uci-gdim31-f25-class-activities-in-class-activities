@@ -45,6 +45,14 @@ A class is like a blueprint for a house. The blueprint describes what a house ca
 I think the balls get extremely bright because their RGB color values may increase with each bounce. After many collisions, the color values can become very high, making the balls appear brighter or almost white, especially in the Scene view.
 
 
+### W4
+#### table #8
+1. I add Rigidbodies to Cat and Soccerball, and Goal's Is Trigger is on.
+
+
+2. In the first time, the cat flys in the air, then I found out is the size of the collider is too big for the cat to stay on the ground.
+
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
