@@ -49,7 +49,6 @@ I think the balls get extremely bright because their RGB color values may increa
 #### table #8
 1. I add Rigidbodies to Cat and Soccerball, and Goal's Is Trigger is on.
 
-
 2. In the first time, the cat flys in the air, then I found out is the size of the collider is too big for the cat to stay on the ground.
 
 
