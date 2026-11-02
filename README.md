@@ -1,7 +1,10 @@
 # in-class-activities
 ## Devlogs
 ### W1
-Write your W1 activity Devlog here.
+
+
+1. When I move the Camera out of the Cat GameObject, the camera no longer follows the Cat when it moves. This happens because the Camera is no longer a child of the Cat, so it does not inherit the Cat's position and movement.
+2. My Itch.io page: 
 
 ### W2
 
