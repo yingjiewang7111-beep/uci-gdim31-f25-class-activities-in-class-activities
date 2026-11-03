@@ -57,6 +57,14 @@ Partner: Bao Tran
 2. In the first time, the cat flys in the air, then I found out is the size of the collider is too big for the cat to stay on the ground.
 
 
+### W5
+
+
+1. This class need a member varaible of the target GameObject that deer walks towards, because it is tunable and only the member variable can be changed.
+2. void Start().(Maybe Update() is also needed.)
+3. When void Start() is exeuted, the methods should use GetComponent<> to get the NavMeshAgent Component on the Deer gameObject. Then the NavMeshAgent Component should tell the deer where to walk.
+
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 

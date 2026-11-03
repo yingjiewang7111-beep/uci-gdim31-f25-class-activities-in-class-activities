@@ -24,16 +24,21 @@ public class SoccerBall : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         // finish STEP 1 by uncommenting and fixing the below line!
-        Debug.Log("SoccerBall detected a collision with a trigger collider!");
+        
 
         // STEP 2 -------------------------------------------------------------
         // Write an IF STATEMENT to check if the game object we collided with
         //      has the tag "Goal".
         // Refer to the slides for an example of how to check this :)
-       
+       if (other.gameObject.tag.Equals("Goal"))
+        {
+            // finish STEP 2 by uncommenting and fixing the below line!
+            Debug.Log("SoccerBall collided with a Goal!");
+            MadeGoal();
+        }
         // Then, move your Debug.Log() statement so that it's only called if
         //      the colliding object has the "Goal" tag.
-
+            Debug.Log("SoccerBall detected a collision with a trigger collider!");
 
         // STEP 2 -------------------------------------------------------------
     }
@@ -45,7 +50,11 @@ public class SoccerBall : MonoBehaviour
     // Next, we're going to make a method named MadeGoal to call if the
     //      SoccerBall collided with an object tagged "Goal".
     // MadeGoal RETURNS NOTHING, and has NO INPUT.
-    // 
+    private void MadeGoal()
+    {
+        // finish STEP 3 by uncommenting and fixing the below line!
+        Debug.Log("SoccerBall made a goal!");
+    } 
     // Once you've created MadeGoal,
     //      move your Debug.Log() statement into MadeGoal, and
     //      call MadeGoal from inside your if statement in OnTriggerEnter.

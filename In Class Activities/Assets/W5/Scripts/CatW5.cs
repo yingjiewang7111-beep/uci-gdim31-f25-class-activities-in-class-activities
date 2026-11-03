@@ -24,7 +24,7 @@ public class CatW5 : MonoBehaviour
         // to change the value of the translation variable,
         // and then call Translate on this GameObject's transform to make it move
         // using translation, _moveSpeed, and Time.deltaTime.
-        //
+        
         // Ask yourself:
         //      Which axis moves the cat forwards and backwards?
         //      Which Vector3 static property would be useful here based on
