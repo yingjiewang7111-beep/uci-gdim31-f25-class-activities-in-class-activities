@@ -65,6 +65,26 @@ Partner: Bao Tran
 3. When void Start() is exeuted, the methods should use GetComponent<> to get the NavMeshAgent Component on the Deer gameObject. Then the NavMeshAgent Component should tell the deer where to walk.
 
 
+### W7
+
+
+1. Category: Unity Coding
+
+https://docs.google.com/document/d/13yni-LML8n_PMU0dRYNeQS41JEUzd5uGydpQOMvt19s/edit?usp=drivesdk
+
+
+2. Planning:
+Member Variables: 
+speed, isChasing
+Methods: 
+Start(), Update(), StartChasing(), StopChasing()
+What should method do: 
+StartChasing () sets isCHasing to true
+StopChasing() sets isChasing to false.
+Update() moves the bat toward the Cat when isChasing is true.
+Start() calls StartChasing() for testing in Part 1.
+
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
