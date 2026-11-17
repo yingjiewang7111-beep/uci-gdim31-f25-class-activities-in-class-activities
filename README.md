@@ -85,6 +85,10 @@ Update() moves the bat toward the Cat when isChasing is true.
 Start() calls StartChasing() for testing in Part 1.
 
 
+### W8
+The code used Vector3.forward, so the Musktrat always moved in the same direction even when turning, I changed it to transform.forward so iy can move in the direction it is facing.
+
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
